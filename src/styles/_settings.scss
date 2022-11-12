@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+$font-1: 'Roboto Mono', monospace;
+$font-2:'Pinyon Script', cursive;
+$font-3:'Roboto Condensed', sans-serif;
+$grey : #777b80;
+$black : #363738;
+
+$min-height : 7vh;
+$borderRadius : 20px;
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    max-width: 1200;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+    color :black ;
+    cursor: pointer;
+}
+
+a:visited{
+    color:black ;
+}
+
+a:hover{
+    color: black;
+}

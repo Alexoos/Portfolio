@@ -1,0 +1,18 @@
+.signature{
+    position : absolute;
+    bottom : 0;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    background-color: white;
+    height: $min-height;
+    text-align: center;
+    border-top: solid;
+    border-top-color: black;
+    display: grid;
+    align-items: center;
+    font-family: $font-1;
+
+}

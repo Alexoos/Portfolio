@@ -1,0 +1,28 @@
+.cv {
+  font-family: $font-3;
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  position: relative;
+  
+
+}
+
+
+img{
+  width: 30px;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.mail, .linkedin, .github{
+  font-size: .5rem;
+  background: white;
+  border-radius: 50%;
+  padding : .5rem .6rem;
+}

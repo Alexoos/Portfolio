@@ -1,0 +1,28 @@
+.titre{
+    height: 85vh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+
+}
+
+
+.moi {
+    font-family: $font-2;
+    font-size: 150px;
+    font-weight: 600;
+
+
+}
+
+.developpeur{
+    margin-bottom: 20px;
+    font-family: $font-1;
+    font-size: 2vh;
+    display: flex;
+}
+
+.typeScript{
+    margin-left: 10px;
+    font-style: italic;
+}
