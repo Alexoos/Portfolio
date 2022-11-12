@@ -3,9 +3,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const Title = () => {
   return (
+
+    <div className="container">
     <div className="titre">
       <div className="moi">Alexis Bertin</div>
-
       <div className="developpeur">
           Développeur
           <div className="typeScript"></div>  
@@ -23,6 +24,7 @@ const Title = () => {
         />     
       </div>
     </div>
+  </div>
   );
 };
 

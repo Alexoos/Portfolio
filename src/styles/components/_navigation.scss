@@ -1,3 +1,4 @@
+
 .navbar{
     background-color: white;
     height: $min-height;
@@ -7,22 +8,22 @@
     position: relative;
     display: grid;
     grid-template-columns: 800px;
-    grid-template-rows: $min-height ;
-    grid-template-areas: "1";
+    grid-template-rows: $min-height ;  
     align-items: center;
+    justify-content: center;
     border-bottom: solid;
     border-bottom-color: black;
-    justify-content: center;
 
 
     .navigation{
         grid-area: 1;
         text-align: center;
+        
     } 
     
     .menuliste{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         
     }
     .menuliste li{
@@ -34,5 +35,29 @@
         font-family: $font-1;
         display: inline-block;
         margin-right: 10px;
+        font-size: large;
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menuliste {
+        font-size: auto;
+    }
+    
+    .navbar{
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navigation{
+        border-bottom: none;
+    }
+
+    .navbar{
+        border-bottom: solid;
+        border-bottom-color: black;
+        
     }
 }

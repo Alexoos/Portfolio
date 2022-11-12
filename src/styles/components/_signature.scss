@@ -1,6 +1,5 @@
 .signature{
     position : absolute;
-    bottom : 0;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -14,5 +13,7 @@
     display: grid;
     align-items: center;
     font-family: $font-1;
+    font-size: large;
+    margin-top: 0px;
 
 }
