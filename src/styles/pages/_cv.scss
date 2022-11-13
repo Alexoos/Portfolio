@@ -1,9 +1,9 @@
 .cv {
   font-family: $font-3;
-  font-size: larger;
+  font-size: x-large;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: auto;
   position: relative;
   
 
@@ -14,15 +14,50 @@ img{
   width: 30px;
 }
 
-.contact{
+.presentation{
   display: flex;
-  justify-content: space-evenly;
-
+  flex-direction: column;
+  align-items: center;
 }
 
-.mail, .linkedin, .github{
-  font-size: .5rem;
-  background: white;
-  border-radius: 50%;
-  padding : .5rem .6rem;
+
+div{
+  margin: 5px;
+}
+
+.formation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .bonaparte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .rouviere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.exp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .antislash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.competence{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
