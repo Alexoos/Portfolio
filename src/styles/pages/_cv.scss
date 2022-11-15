@@ -1,17 +1,31 @@
+
+
 .cv {
   font-family: $font-3;
-  font-size: x-large;
   margin-left: auto;
   margin-right: auto;
   width: auto;
-  position: relative;
-  
-
+  position: relative;  
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
 }
 
 
-img{
-  width: 30px;
+.title_page{
+  font-size: 4.4em;
+  color: grey;
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+.photo{
+  border: none;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 .presentation{
@@ -21,10 +35,19 @@ img{
 }
 
 
-div{
-  margin: 5px;
+.pres{
+  display: flex;
 }
 
+.paragraphe{
+  align-self: center;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.nom{
+  font-weight: bold;
+}
 .formation{
   display: flex;
   flex-direction: column;
@@ -32,16 +55,39 @@ div{
 
   .bonaparte{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
-  }
+    margin-bottom: 20px;
 
+  }
+  
   .rouviere{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
   }
+
+  .eucalyptus{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+
+.date{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  width: 35%;
+  margin-right: 10px;
+}
+
+.details{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
 }
 
 .exp{
@@ -50,9 +96,13 @@ div{
   align-items: center;
 
   .antislash{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 92%;
+  }
+  .gras{
+    font-weight: 700;
   }
 }
 
@@ -60,4 +110,23 @@ div{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1{
+  color: grey;
+  text-decoration: underline;
+  margin: 10px;
+}
+.anne{
+  color: grey;
+}
+
+@media screen and (max-width: 600px){
+  .title_page{
+    font-size: 2em;
+  }
+
+  .antislash{
+    width: auto;
+  }
 }

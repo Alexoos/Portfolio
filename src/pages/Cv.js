@@ -21,9 +21,9 @@ const Cv = () => {
     <div>
 
       <Navigation />
-      
+   
         <div className="cv">
-
+        <div className="title_page">CURRICULUM VITAE</div>
           <Presentation />
 
             <Formation />

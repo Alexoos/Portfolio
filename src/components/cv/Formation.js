@@ -8,29 +8,39 @@ const Formation = () => {
 
         <div className="formation">
 
-            <h3>Formation :</h3>
-
-            <div className="bonaparte">
-                <div>Lycée Bonaparte Toulon</div>
-                
-                <div>2021-2023 (en cours)</div>
-
-                <div>BTS Services informatiques aux organisations</div>
-
-                <div> Option Solutions Logicielles et Applications Métier</div>
-            </div>
-
-            <div className="rouviere">
-                <div>Lycée Polyvalent Rouviere Toulon</div>
-
-                <div>2020-2021</div>
-
-                <div>Terminale Sciences et Technologies de l'industrie et du développement durable</div>
-
-                <div>Option Système d'information et numérique</div>
-                </div>
+            <h1>Formation :</h1>
+            <ul className='parcours'>
+                <li className="bonaparte">
+                    <div className="date">
+                        <span className='anne'>2021-2023</span>
+                        <span>Lycée Bonaparte Toulon</span>
+                        <span>BTS SIO option SLAM en Alternance (en cours)</span>
+                    </div>
+                    <div className='details'>
+                        <span>Brevet de Technicien Supérieur Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers</span>
+                    </div>
+                </li>
+                <li className="rouviere">
+                    <div className="date">
+                        <span className='anne'>2020-2021</span>
+                        <span>Terminale STI2D option SIN</span>
+                        <span>Lycée Polyvalent Rouviere Toulon</span>
+                    </div>
+                    <div className='details'>
+                        <span>Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable option Systèmes d’Information et Numérique mention bien</span>
+                    </div>
+                </li>
+                <li className="eucalyptus">
+                    <div className="date">
+                        <span className='anne'>2018</span>
+                        <span>Collège Les Eucalyptus Ollioules</span>
+                    </div>
+                    <div className='details'>
+                        <span>Diplôme National du Brevet mention bien</span>
+                    </div>
+                </li>
+            </ul>
         </div>
-
     );
 
 };

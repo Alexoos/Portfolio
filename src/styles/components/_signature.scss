@@ -6,14 +6,20 @@
     margin-right: auto; 
     width: 100%;
     background-color: white;
-    height: $min-height;
     text-align: center;
     border-top: solid;
     border-top-color: black;
     display: grid;
     align-items: center;
     font-family: $font-1;
-    font-size: large;
     margin-top: 0px;
+
+}
+
+
+@media screen and (max-width: 800px){
+    .parasignature{
+        font-size: smaller;
+    }
 
 }

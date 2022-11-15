@@ -47,17 +47,22 @@
     
     .navbar{
         grid-template-columns: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .navigation{
-        border-bottom: none;
-    }
-
-    .navbar{
         border-bottom: solid;
         border-bottom-color: black;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 425px) {
+    .navigation{
+        border-bottom: solid;
+        border-bottom-color: black;    }
+
+    .navbar{
+        border-bottom: none;
+
         
     }
 }
