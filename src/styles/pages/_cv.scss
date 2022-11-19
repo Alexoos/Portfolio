@@ -2,6 +2,7 @@
 
 .cv {
   font-family: $font-3;
+  font-size: 19px;
   margin-left: auto;
   margin-right: auto;
   width: auto;
@@ -14,11 +15,10 @@
 
 .title_page{
   font-size: 4.4em;
-  color: grey;
+  color: black;
   position: relative;
   text-align: center;
   margin-bottom: 50px;
-  text-decoration: underline;
 }
 
 .photo{
@@ -53,24 +53,25 @@
   flex-direction: column;
   align-items: center;
 
-  .bonaparte{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
 
-  }
+    .bonaparte{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
   
-  .rouviere{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .eucalyptus{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+    }
+    
+    .rouviere{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .eucalyptus{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
 }
 
 
@@ -87,7 +88,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 100%;
 }
 
 .exp{
@@ -95,12 +96,14 @@
   flex-direction: column;
   align-items: center;
 
-  .antislash{
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 92%;
-  }
+     .antislash{
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+ 
+
+
   .gras{
     font-weight: 700;
   }
@@ -108,25 +111,52 @@
 
 .competence{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 h1{
   color: grey;
   text-decoration: underline;
+  text-align: center;
   margin: 10px;
 }
 .anne{
   color: grey;
 }
 
+.logoCompetence{
+  max-width: 125px;
+  max-height: 125px;
+  margin: 2%;
+}
+
+@media screen and (max-width: 1260px){
+  .logoCompetence{
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .logoCompetence{
+    max-width: 60px;
+    max-height: 60px;
+  }
+}
+
 @media screen and (max-width: 600px){
   .title_page{
     font-size: 2em;
   }
-
-  .antislash{
-    width: auto;
+  .cv{
+    font-size: 15px;
+  }
+  .logoCompetence{
+    max-width: 45px;
+    max-height: 45px;
   }
 }
+
+

@@ -12,9 +12,9 @@ const Formation = () => {
             <ul className='parcours'>
                 <li className="bonaparte">
                     <div className="date">
-                        <span className='anne'>2021-2023</span>
+                        <span className='anne'>2021-2023  (en cours)</span>
                         <span>Lycée Bonaparte Toulon</span>
-                        <span>BTS SIO option SLAM en Alternance (en cours)</span>
+                        <span>BTS SIO option SLAM en Alternance</span>
                     </div>
                     <div className='details'>
                         <span>Brevet de Technicien Supérieur Services Informatiques aux Organisations option Solutions Logicielles et Applications Métiers</span>
