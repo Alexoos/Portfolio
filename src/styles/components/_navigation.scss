@@ -8,7 +8,7 @@
     justify-content: center;
     border-bottom: solid;
     border-bottom-color: black;
-
+    min-width: auto;
 
     .navigation{
         text-align: center;
@@ -48,15 +48,23 @@
     
 }
 
-
-@media screen and (max-width: 425px) {
-    .navigation{
-        border-bottom: solid;
-        border-bottom-color: black;    }
-
+@media screen and (max-width: 400px) {
     .navbar{
-        border-bottom: none;
 
-        
+        .menuliste a{
+            font-size: 15px;
+        }
     }
 }
+
+
+
+@media screen and (max-width: 360px) {
+    .navbar{
+
+        .menuliste a{
+            font-size: 10px;
+        }
+    }
+}
+

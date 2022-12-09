@@ -1,0 +1,39 @@
+.agglomistral{
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    text-align: center;
+    font-family: $font-1;
+    
+}
+
+.titre_agglomistral{
+    text-decoration: none;
+    font-size: 4.4em;
+}
+
+.paragrapheAggloMistral{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .agglomistral{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titre_agglomistral{
+        font-size: 2em;
+    }
+
+    .paragrapheAggloMistral{
+        font-size: 15px;
+        margin: 0 10% 1%;
+    }
+}
+
+@media screen and (max-width: 300px){
+
+    .paragrapheAggloMistral{
+        font-size: 12px;
+    }
+}

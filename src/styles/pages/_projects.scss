@@ -1,0 +1,139 @@
+.realisation{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    min-height: 87vh;
+
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: minmax(100px,auto);
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+  grid-gap: 100px;
+
+  a{
+      color: black;
+      text-decoration: underline;
+  }
+
+  .prog{
+    font-weight: 700;
+  }
+}
+
+.image_realisation{
+  height: 250px;
+  width: 300px;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border: solid 3px;
+    border-radius: 8px;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: rgb(0, 0, 0);
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: $font-1;
+    font-size: 15px;
+
+  }
+
+  @media screen and(max-width: 1050px){
+    .grid-container{
+      display: flex ;
+      flex-direction: column;
+      grid-gap: 50px;
+    }
+    .image_realisation{
+      height: 200px;
+      width: 250px;
+    }
+
+    .flip-card{
+      height: 200px;
+      width: 250px;
+    }
+
+    .flip-card-back {
+      font-size: 15px;
+    }
+    
+  }
+
+  @media screen and(max-width: 400px){
+    .image_realisation{
+      height: 150px;
+      width: 200px;
+    }
+
+    .flip-card{
+      height: 150px;
+      width: 200px;
+    }
+
+    .flip-card-back {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and(max-width: 300px){
+    .flip-card-back {
+      font-size: 10px;
+    }
+
+    .image_realisation{
+      height: 125px;
+      width: 175px;
+    }
+
+    .flip-card{
+      height: 125px;
+      width: 175px;
+    }
+
+  }

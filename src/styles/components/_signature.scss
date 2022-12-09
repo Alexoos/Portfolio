@@ -1,16 +1,34 @@
 .signature{
+    position: relative;
     background-color: white;
     text-align: center;
     border-top: solid;
     border-top-color: black;
     font-family: $font-1;
-    min-width: 400px;
+    min-width: auto;
+    bottom: 0;
+
 }
 
 
 @media screen and (max-width: 800px){
     .parasignature{
         font-size: smaller;
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+    .parasignature{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    .parasignature{
+        font-size: 10px;
     }
 
 }

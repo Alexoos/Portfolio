@@ -1,0 +1,31 @@
+.sdc{
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    text-align: center;
+    font-family: $font-1;
+    
+}
+
+.titre_sdc{
+    text-decoration: none;
+    font-size: 4.4em;
+}
+
+.paragrapheSDC{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .sdc{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titre_sdc{
+        font-size: 2em;
+    }
+
+    .paragrapheSDC{
+        font-size: 12px;
+    }
+}

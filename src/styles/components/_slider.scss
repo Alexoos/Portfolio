@@ -1,0 +1,33 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+.carousel .thumbs {
+    padding-inline-start: 0px;
+}
+
+.carousel .thumb {
+    cursor: pointer;
+}
+
+.carousel .slide{
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.carousel-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (max-width:600px){
+    .carousel .slide .photoAggloMistral{
+        width: 70vw !important;
+        height: 25vh;
+    }
+
+}

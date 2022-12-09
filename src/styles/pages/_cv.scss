@@ -160,3 +160,23 @@ h1{
 }
 
 
+@media screen and (max-width: 300px){
+  .title_page{
+    font-size: 2em;
+  }
+  .cv{
+    font-size: 12px;
+  }
+  .logoCompetence{
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .photo{
+    max-width: 100px;
+  }
+
+}
+
+
+

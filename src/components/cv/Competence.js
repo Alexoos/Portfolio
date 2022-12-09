@@ -4,6 +4,7 @@ import logoJs from '../../images/Logo-Javascript.png';
 import logoPHP from '../../images/Logo-PHP.png';
 import logoWindev from '../../images/Logo-Windev.png';
 import logoGit from '../../images/Logo-Git.png';
+import logoReactJS from '../../images/Logo-ReactJS.png';
 
 
 const Competence = () => {
@@ -17,6 +18,7 @@ const Competence = () => {
                 <img className='logoCompetence' src={logoPHP}  alt="LogoPHP"></img>
                 <img className='logoCompetence' src={logoWindev}  alt="LogoWindev"></img>
                 <img className='logoCompetence' src={logoGit}  alt="LogoGit"></img>
+                <img className='logoCompetence' src={logoReactJS}  alt="logoReactJS"></img>
             </div>
         </div>
     );

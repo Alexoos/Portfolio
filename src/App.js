@@ -10,6 +10,12 @@ import Projects from "./pages/Projects";
 
 import Contact from "./pages/Contact";
 
+import AggloMistral from "./pages/AggloMistral";
+
+import SDC from "./pages/SDC";
+
+import Portfolio from "./pages/Portfolio"
+
 import NotFound from "./pages/NotFound";
 
 
@@ -32,6 +38,12 @@ const App = () => {
         <Route path="/Realisations" element={<Projects />}></Route>
 
         <Route path="/Contact" element={<Contact />}></Route>
+
+        <Route path="/Realisations/agglomistral" element={<AggloMistral />}></Route>
+
+        <Route path="/Realisations/sdc" element={<SDC />}></Route>
+
+        <Route path="/Realisations/portfolio" element={<Portfolio />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
 

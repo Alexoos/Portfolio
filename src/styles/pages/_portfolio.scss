@@ -1,0 +1,27 @@
+.portfolio{
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    text-align: center;
+    font-family: $font-1;
+    
+}
+
+.titre_portfolio{
+    text-decoration: none;
+    font-size: 4.4em;
+}
+
+@media screen and (max-width: 600px){
+    .portfolio{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titre_portfolio{
+        font-size: 2em;
+    }
+
+    .paragraphePortfolio{
+        font-size: 12px;
+    }
+}
