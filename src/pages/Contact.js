@@ -23,7 +23,9 @@ const Contact = () => {
                         <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
                         <input type="submit" value="Envoyer"/>
                     </form>
+                    <Lien/>
                 </div>
+                
             <Signature/>
 
         </div>

@@ -59,7 +59,7 @@ textarea {
 
 .lien{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   
   }
 
@@ -100,5 +100,10 @@ textarea {
   @media screen and(max-width: 600px){
     .titre_contact{
       font-size: 2em;
+    }
+
+    .mail , .github, .linkedin{
+      width: 40px;
+      height: auto;
     }
   }
