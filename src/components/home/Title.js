@@ -4,7 +4,6 @@ import { TypeAnimation } from "react-type-animation";
 const Title = () => {
   return (
 
-    <div className="container">
     <div className="titre">
       <div className="moi">Alexis Bertin</div>
       <div className="developpeur">
@@ -24,7 +23,6 @@ const Title = () => {
         />     
       </div>
     </div>
-  </div>
   );
 };
 
