@@ -4,7 +4,9 @@
     position: relative;
     text-align: center;
     font-family: $font-1;
-    
+    background-color: white;
+    border: solid 2px;
+    border-radius: 75px;
 }
 
 .titre_agglomistral{
@@ -15,10 +17,12 @@
 
 .paragrapheAggloMistral{
     padding-bottom: 20px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 600px){
     .agglomistral{
+        border-radius: 35px;
         margin-left: 5%;
         margin-right: 5%;
     }

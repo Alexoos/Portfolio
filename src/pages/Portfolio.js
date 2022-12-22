@@ -8,6 +8,7 @@ const Portfolio = () => {
     return (
         <div>
             <Navigation/>
+            <div className='page'>
                 <div className='portfolio'>
                     <h1 className='titre_portfolio'>Portfolio</h1>
                     <SliderPortfolio/>
@@ -15,6 +16,7 @@ const Portfolio = () => {
                         Ce portfolio a était réalisé en ReactJS/SCSS (en cours de développement)
                     </p>
                 </div>
+            </div>
             <Signature/>
         </div>
         );

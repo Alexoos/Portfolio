@@ -4,7 +4,10 @@
     position: relative;
     text-align: center;
     font-family: $font-1;
-    
+    background-color: white;
+    border: solid 2px;
+    border-radius: 75px;
+    font-weight: 600;
 }
 
 .titre_portfolio{
@@ -15,6 +18,7 @@
 
 @media screen and (max-width: 600px){
     .portfolio{
+        border-radius: 35px;
         margin-left: 5%;
         margin-right: 5%;
     }

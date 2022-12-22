@@ -1,15 +1,25 @@
-
+.page{
+background:linear-gradient(135deg, grey 25%, transparent 25%) -100px 0,linear-gradient(225deg, grey 25%, transparent 25%) -100px 0,linear-gradient(315deg, grey 25%, transparent 25%),linear-gradient(45deg, grey 25%, transparent 25%);
+background-size:calc(2 * 100px) calc(2 * 100px);
+padding-top: 20px;
+padding-bottom: 20px;
+}
 
 .cv {
-  font-family: $font-3;
-  font-size: 19px;
+  font-family: $font-1;
+  font-size: 18px;
   margin-left: auto;
   margin-right: auto;
   width: auto;
   position: relative;  
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: white;
+  border : solid 2px;
+  border-radius: 100px;
+
 }
 
 
@@ -113,17 +123,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 h1{
-  color: grey;
+  color: black;
   text-decoration: underline;
   text-align: center;
   margin: 10px;
 }
 .anne{
-  color: grey;
+  color: black;
 }
 
 .logoCompetence{
@@ -151,11 +161,16 @@ h1{
     font-size: 2em;
   }
   .cv{
-    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
   }
   .logoCompetence{
     max-width: 45px;
     max-height: 45px;
+  } 
+  .photo{
+    max-width: 100px;
   }
 }
 
@@ -164,7 +179,7 @@ h1{
   .title_page{
     font-size: 2em;
   }
-  .cv{
+  .cv{  
     font-size: 12px;
   }
   .logoCompetence{
@@ -172,9 +187,6 @@ h1{
     max-height: 40px;
   }
 
-  .photo{
-    max-width: 100px;
-  }
 
 }
 

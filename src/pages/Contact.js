@@ -15,6 +15,7 @@ const Contact = () => {
         <div>
 
             <Navigation/>
+            <div className='page'>
                 <div className='contact'>
                 <h1 className='titre_contact'>Contact </h1>
                     <form>      
@@ -25,7 +26,7 @@ const Contact = () => {
                     </form>
                     <Lien/>
                 </div>
-                
+            </div>
             <Signature/>
 
         </div>
