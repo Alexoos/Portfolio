@@ -4,6 +4,8 @@ import Navigation from '../components/Navigation';
 
 import Signature from '../components/Signature';
 
+import Form from '../components/contact/FormContact';
+
 import Lien from '../components/contact/Lien';
 
 
@@ -18,12 +20,7 @@ const Contact = () => {
             <div className='page'>
                 <div className='contact'>
                 <h1 className='titre_contact'>Contact </h1>
-                    <form>      
-                        <input name="name" type="text" class="feedback-input" placeholder="Nom & Prénom" />   
-                        <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                        <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
-                        <input type="submit" value="Envoyer"/>
-                    </form>
+                    <Form/>
                     <Lien/>
                 </div>
             </div>
