@@ -6,12 +6,12 @@ import Signature from "../components/Signature";
 
 import Title from "../components/home/Title";
 
+
 const Home = () => {
 
   return (
-
     <>
-
+    
       <Navigation />
 
             <Title/>

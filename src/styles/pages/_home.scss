@@ -3,14 +3,13 @@
     display: grid;
     align-content: center;
     justify-items: center;
-    background:linear-gradient(135deg, grey 25%, transparent 25%) -100px 0,linear-gradient(225deg, grey 25%, transparent 25%) -100px 0,linear-gradient(315deg, grey 25%, transparent 25%),linear-gradient(45deg, grey 25%, transparent 25%);
-    background-size:calc(2 * 100px) calc(2 * 100px);
+    background-image:repeating-linear-gradient(45deg, grey 5px, black 5px, transparent 50%);
+    background-size:150px 150px;
 }
 .moi {
     font-family: $font-2;
     font-size: 150px;
     font-weight: 600;
-
 }
 
 .developpeur{

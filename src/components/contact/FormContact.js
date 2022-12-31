@@ -6,11 +6,12 @@ const Form = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('service_4v1sim5', 'template_pf5s0zm', form.current, 'Mc0G3P6Z1Mu8H6rAB')
         .then((result) => {
-            console.log(result.text);
+            alert("Message Envoyée !");
+            document.location.href="/Accueil";  
         }, (error) => {
-            console.log(error.text);
+            alert("Erreur: Impossible d'envoyer le message !"); 
         });
     };
   

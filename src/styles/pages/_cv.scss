@@ -1,8 +1,8 @@
 .page{
-background:linear-gradient(135deg, grey 25%, transparent 25%) -100px 0,linear-gradient(225deg, grey 25%, transparent 25%) -100px 0,linear-gradient(315deg, grey 25%, transparent 25%),linear-gradient(45deg, grey 25%, transparent 25%);
-background-size:calc(2 * 100px) calc(2 * 100px);
-padding-top: 20px;
-padding-bottom: 20px;
+  background:linear-gradient(135deg, grey 25%, transparent 25%) -100px 0,linear-gradient(225deg, rgb(0, 0, 0) 25%, transparent 25%) -100px 0,linear-gradient(315deg, rgb(0, 0, 0) 25%, transparent 25%),linear-gradient(45deg, grey 25%, transparent 25%);
+  background-size:calc(2 * 100px) calc(2 * 100px);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .cv {
