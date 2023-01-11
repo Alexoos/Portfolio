@@ -15,7 +15,7 @@ const Lien = () => {
 
                     </a>
 
-                    <a href="https://fr.linkedin.com" title="Lien vers mon profil LinkedIn">
+                    <a href="https://www.linkedin.com/in/alexis-bertin-970967261/" title="Lien vers mon profil LinkedIn">
 
                         <img  className="linkedin" src={linkedin} alt="Icone de LinkedIn"/>
 

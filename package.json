@@ -6,7 +6,7 @@
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.4.3",
     "emailjs": "^4.0.1",
     "joi": "^17.7.0",
     "mail": "^0.2.3",
@@ -18,12 +18,12 @@
     "react-dom": "^18.2.0",
     "react-particles": "^2.7.1",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.4.3",
+    "react-router-dom": "^6.6.2",
     "react-scripts": "^5.0.1",
     "react-type-animation": "^2.1.2",
     "sendmail": "^1.6.1",
     "typical": "^7.1.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

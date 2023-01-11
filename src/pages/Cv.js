@@ -12,6 +12,7 @@ import Experience from "../components/cv/Experience";
 
 import Competence from "../components/cv/Competence";
 
+import LogoDL from "../images/Logo-Download.png";
 
 
 const Cv = () => {
@@ -23,22 +24,28 @@ const Cv = () => {
       <Navigation />
         <div className="page">
           <div className="cv">
-          <div className="title_page">CURRICULUM VITAE</div>
-            <Presentation />
+            <div className="title_page">CURRICULUM VITAE</div>
+              <Presentation />
 
-              <Formation />
+                <Formation />
 
-              <Experience />
+                <Experience />
 
-              <Competence />
-
-          </div>
+                <Competence />
+                <div className = "logoDl">
+                  <a href="CV de Alexis Bertin.pdf" download="CV_Alexis_Bertin.pdf">
+                    <img src={LogoDL}></img>
+                  </a>
+              </div>
+            </div>
         </div>
       <Signature />
 
     </div>
 
   );
+
+
 
 };
 
