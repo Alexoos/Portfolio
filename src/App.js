@@ -18,10 +18,6 @@ import Portfolio from "./pages/Portfolio"
 
 import NotFound from "./pages/NotFound";
 
-
-
-
-
 const App = () => {
   return (
      
@@ -39,11 +35,11 @@ const App = () => {
 
         <Route path="/Contact" element={<Contact />}></Route>
 
-        <Route path="/Realisations/agglomistral" element={<AggloMistral />}></Route>
+        <Route path="/Agglomistral" element={<AggloMistral />}></Route>
 
-        <Route path="/Realisations/sdc" element={<SDC />}></Route>
+        <Route path="/Sdc" element={<SDC />}></Route>
 
-        <Route path="/Realisations/portfolio" element={<Portfolio />}></Route>
+        <Route path="/Portfolio" element={<Portfolio />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
 
