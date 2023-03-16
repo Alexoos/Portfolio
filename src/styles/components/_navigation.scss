@@ -1,69 +1,65 @@
+.navbar {
+  background-color: white;
+  height: $min-height;
+  display: grid;
+  grid-template-columns: 800px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid;
+  border-bottom-color: black;
+  min-width: auto;
 
-.navbar{
-    background-color: white;
-    height: $min-height;
-    display: grid;
-    grid-template-columns: 800px;
-    align-items: center;
-    justify-content: center;
-    border-bottom: solid;
-    border-bottom-color: black;
-    min-width: auto;
+  .navigation {
+    text-align: center;
+  }
 
-    .navigation{
-        text-align: center;
-        
-    } 
-    
-    .menuliste{
-        display: flex;
-        justify-content: space-evenly;
-        
-    }
-    .menuliste li{
-        display: inline;
-        margin-right: 10px;
-    }
+  .menuliste {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .menuliste li {
+    display: inline;
+    margin-right: 10px;
+  }
 
-    .menuliste a{
-        font-family: $font-1;
-        display: inline-block;
-        margin-right: 10px;
-        font-size: large;
-    }
+  .menuliste a {
+    font-family: $font-1;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: large;
+  }
+  .menuliste a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: "solid";
+    text-decoration-color: rgba(0, 0, 0, 1);
+    text-decoration-thickness: 3px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .menuliste {
-        font-size: auto;
-    }
-    
-    .navbar{
-        grid-template-columns: auto;
-        border-bottom: solid;
-        border-bottom-color: black;
-        
-    }
-    
+  .menuliste {
+    font-size: auto;
+  }
+
+  .navbar {
+    grid-template-columns: auto;
+    border-bottom: solid;
+    border-bottom-color: black;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .navbar{
-
-        .menuliste a{
-            font-size: 15px;
-        }
+  .navbar {
+    .menuliste a {
+      font-size: 15px;
     }
+  }
 }
-
-
 
 @media screen and (max-width: 360px) {
-    .navbar{
-
-        .menuliste a{
-            font-size: 10px;
-        }
+  .navbar {
+    .menuliste a {
+      font-size: 10px;
     }
+  }
 }
-

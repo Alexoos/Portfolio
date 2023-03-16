@@ -14,7 +14,9 @@ import AggloMistral from "./pages/AggloMistral";
 
 import SDC from "./pages/SDC";
 
-import Portfolio from "./pages/Portfolio"
+import Portfolio from "./pages/Portfolio";
+
+import Parc from './pages/Parc';
 
 import NotFound from "./pages/NotFound";
 
@@ -40,6 +42,8 @@ const App = () => {
         <Route path="/Sdc" element={<SDC />}></Route>
 
         <Route path="/Portfolio" element={<Portfolio />}></Route>
+
+        <Route path="/Parc" element={<Parc />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
 

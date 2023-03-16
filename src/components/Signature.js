@@ -8,7 +8,7 @@ const Signature = () => {
 
         <div className='signature'>
 
-            <p className='parasignature'>Copyright © 2022 All Rights Reserved by Alexis Bertin</p>
+            <p className='parasignature'> © 2023 - Créé par Alexis Bertin - Tous droits réservés</p>
 
         </div>
 

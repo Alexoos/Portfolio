@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import LogoAggloMistral from '../../images/Logo-AggloMistral.png';
 import LogoPortfolio from '../../images/Logo-Portfolio.PNG';
 import LogoSDC from '../../images/Logo-sdc.png';
+import LogoParc from '../../images/Logo-Parc.PNG';
 
 
 
@@ -11,6 +12,7 @@ const Container = () => {
     const AggloMistral = () => navigate('/Agglomistral');
     const Sdc = () => navigate('/Sdc');
     const Portfolio = () => navigate('/Portfolio');
+    const Parc = () =>navigate('/Parc'); 
     return (
         <div className="realisation">
             <div className="grid-container">
@@ -28,7 +30,22 @@ const Container = () => {
                     <a onClick={Portfolio}>
                         <img className="image_realisation" src={LogoPortfolio} alt="Logo de Portfolio"></img>
                     </a>
-                </div>                     
+                </div>
+                <div className="container_img">
+                    <a onClick={Parc}>
+                        <img className="image_realisation" src={LogoParc} alt="Logo de Parc"></img>
+                    </a>
+                </div> 
+                <div className="container_img">
+                    <a onClick={Portfolio}>
+                        <img className="image_realisation" src={LogoPortfolio} alt="Logo de Portfolio"></img>
+                    </a>
+                </div> 
+                <div className="container_img">
+                    <a onClick={Portfolio}>
+                        <img className="image_realisation" src={LogoPortfolio} alt="Logo de Portfolio"></img>
+                    </a>
+                </div>                      
             </div>       
         </div>
      );

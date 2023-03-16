@@ -1,0 +1,36 @@
+.page{
+    height: 100%;
+}
+.parc{
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    text-align: center;
+    font-family: $font-1;
+    background-color: white;
+    border: solid 2px;
+    border-radius: 75px;
+    font-weight: 600;
+    height: 82vh;
+}
+
+.titre_parc{
+    text-decoration: none;
+    font-size: 4.4em;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .parc{
+        border-radius: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titre_parc{
+        font-size: 2em;
+    }
+
+    .paragrapheParc{
+        font-size: 12px;
+    }
+}
