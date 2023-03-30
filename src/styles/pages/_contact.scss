@@ -59,7 +59,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:blue; }
+[type="submit"]:hover { background:rgb(80, 164, 191); }
 
 
 .lien{
@@ -82,8 +82,14 @@ textarea {
     padding : .4rem .5rem;
     width: 60px;
     height: 60px; 
-    border : solid 2px;
+    border : solid 3px;
   }
+
+  .mail:hover{
+    border : solid 3px  rgb(80, 164, 191);
+  }
+
+  
 
   .github {
     font-size: .5rem;
@@ -92,9 +98,14 @@ textarea {
     padding : .4rem .5rem;
     width: 60px;
     height: 60px;  
-    border : solid 2px
+    border : solid 3px
   }
 
+  .github:hover{
+    border : solid 3px  rgb(80, 164, 191);
+  }
+  
+  
   .linkedin {
     font-size: .5rem;
     background: white;
@@ -102,8 +113,13 @@ textarea {
     padding : .4rem .5rem;
     width: 60px;
     height: 60px; 
-    border : solid 2px 
+    border : solid 3px 
   }
+
+  .linkedin:hover{
+    border : solid 3px rgb(80, 164, 191);
+  }
+  
 
   .lien{
     margin-bottom: 50px;
