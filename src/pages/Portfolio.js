@@ -4,7 +4,6 @@ import Signature from '../components/Signature';
 import SliderPortfolio from'../components/projects/SliderPortfolio';
 
 const Portfolio = () => {
-    
     return (
         <div>
             <Navigation/>
@@ -13,7 +12,7 @@ const Portfolio = () => {
                     <h1 className='titre_portfolio'>Portfolio</h1>
                     <SliderPortfolio/>
                     <p className='paragraphePortfolio'>
-                        Ce portfolio a était réalisé en ReactJS/SCSS (en cours de développement)
+                        Ce portfolio a était réalisé en ReactJS/SCSS.
                     </p>
                 </div>
             </div>

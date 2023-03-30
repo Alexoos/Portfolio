@@ -18,7 +18,15 @@ import Portfolio from "./pages/Portfolio";
 
 import Parc from './pages/Parc';
 
+import GSB from "./pages/GSB";
+
+import MDL from "./pages/MDL";
+
 import NotFound from "./pages/NotFound";
+
+
+
+
 
 const App = () => {
   return (
@@ -44,6 +52,10 @@ const App = () => {
         <Route path="/Portfolio" element={<Portfolio />}></Route>
 
         <Route path="/Parc" element={<Parc />}></Route>
+
+        <Route path="/Gsb" element={<GSB />}></Route>
+
+        <Route path="/Mdl" element={<MDL />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
 
