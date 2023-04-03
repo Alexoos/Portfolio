@@ -6,7 +6,7 @@ const Experience = () => {
 
     return (
         <div>
-            <h1>Expérience :</h1>
+            <h1>Expériences :</h1>
             <div className="exp">
                 <ul>
                     <li className='antislash'>

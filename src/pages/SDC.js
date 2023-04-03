@@ -12,8 +12,11 @@ const SDC = () => {
                 <div className='sdc'>
                     <h1 className='titre_sdc'>SDC Mobile</h1>
                     <SliderSDC/>
+                    <div>
+                    PHP/Bootstrap
+                    </div>
                     <p className='paragrapheSDC'>
-                        SDC (Suivi de chantier) Mobile est une application web réalisée en PHP/BOOTSTRAP faite pour une utilisation mobile.Elle permet de gerer (grâce a l'ajouts de photos, de notes et la création de bon de commandes) et suivre les chantiers qui sont affecter a l'employé de n'importe où, avec un affichage différent pour les chefs de chantier.
+                        SDC.
                     </p>
                 </div>
             </div>

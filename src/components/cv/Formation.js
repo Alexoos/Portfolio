@@ -8,7 +8,7 @@ const Formation = () => {
 
         <div className="formation">
 
-            <h1>Formation :</h1>
+            <h1>Formations :</h1>
             <ul className='parcours'>
                 <li className="bonaparte">
                     <div className="date">

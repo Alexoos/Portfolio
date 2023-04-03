@@ -11,8 +11,11 @@ const Portfolio = () => {
                 <div className='portfolio'>
                     <h1 className='titre_portfolio'>Portfolio</h1>
                     <SliderPortfolio/>
+                    <div>
+                    ReactJS/SCSS
+                    </div>
                     <p className='paragraphePortfolio'>
-                        Ce portfolio a était réalisé en ReactJS/SCSS.
+                        Portfolio.
                     </p>
                 </div>
             </div>

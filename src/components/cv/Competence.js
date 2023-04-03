@@ -5,12 +5,14 @@ import logoPHP from "../../images/Logo-PHP.png";
 import logoWindev from "../../images/Logo-Windev.png";
 import logoGit from "../../images/Logo-Git.png";
 import logoReactJS from "../../images/Logo-ReactJS.png";
+import logoSymfony from "../../images/Logo-Symfony.png";
+import logoNode from "../../images/Logo-Node.png";
 
 const Competence = () => {
   return (
  
     <div>
-      <h1>Compétence :</h1>
+      <h1>Compétences :</h1>
       <div className="competence">
         <div>
           <img className="logoCompetence" src={logoJava} alt="LogoJava"></img>
@@ -30,6 +32,12 @@ const Competence = () => {
         <div>
             <img className="logoCompetence" src={logoReactJS} alt="logoReactJS"></img>
         </div>
+        <div>
+            <img className="logoCompetence" src={logoSymfony} alt="logoSymfony"></img>
+        </div>
+        <div>
+            <img className="logoCompetence" src={logoNode} alt="logoNode"></img>
+        </div>
 
         <div className="etoile"> 
             <span class="fa fa-star checked"></span>
@@ -70,6 +78,20 @@ const Competence = () => {
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div className="etoile">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div className="etoile">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
         </div>

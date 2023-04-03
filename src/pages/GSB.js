@@ -12,8 +12,11 @@ const GSB = () => {
                 <div className='gsb'>
                     <h1 className='titre_gsb'>Galaxy Swiss Bourdin</h1>
                     <SliderGSB/>
+                    <div>
+                    PHP/Bootstrap
+                    </div>
                     <p className='paragrapheGSB'>
-                        gsb.
+                        GSB.
                     </p>
                 </div>
             </div>

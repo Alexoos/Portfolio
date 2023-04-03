@@ -123,7 +123,7 @@
 
 .competence{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -149,8 +149,8 @@ h1{
 }
 
 .logoCompetence{
-  max-width: 125px;
-  max-height: 125px;
+  max-width: 100px;
+  max-height: 100px;
   margin: 2%;
 }
 
@@ -158,11 +158,12 @@ h1{
   text-align: center;
 }
 
-@media screen and (max-width: 1260px){
+@media screen and (max-width: 1300px){
   .logoCompetence{
     max-width: 80px;
     max-height: 80px;
   }
+
 }
 
 @media screen and (max-width: 950px){
@@ -170,6 +171,7 @@ h1{
     max-width: 60px;
     max-height: 60px;
   }
+
 }
 
 
