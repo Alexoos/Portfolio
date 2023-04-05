@@ -1,31 +1,32 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Portfolio1 from '../../images/Portfolio1.PNG';
-import Portfolio2 from '../../images/Portfolio2.PNG';
-import Portfolio3 from '../../images/Portfolio3.PNG';
-import Portfolio4 from '../../images/Portfolio4.PNG';
+import Nolark1 from '../../images/nolark_1.PNG';
+import Nolark2 from '../../images/nolark_2.PNG';
+import Nolark3 from '../../images/nolark_3.PNG';
+import Nolark4 from '../../images/nolark_4.PNG';
+
 export default function Slider() {
   const datas = [
     {
       id:1,
-      image: Portfolio1,
+      image: Nolark1,
     },
     {
       id:2,
-      image: Portfolio2,
+      image: Nolark2,
     },
     {
-      id:3,
-      image: Portfolio3,
+        id:3,
+        image: Nolark3,
     },
     {
-      id:4,
-      image: Portfolio4,
+        id:4,
+        image: Nolark4,
     },
   ]
   return (
-    <Carousel 
+    <Carousel
       interval={5000} 
       infiniteLoop 
       thumbWidth={80} 

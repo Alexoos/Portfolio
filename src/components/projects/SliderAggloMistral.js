@@ -36,7 +36,6 @@ export default function Slider() {
   ]
   return (
     <Carousel
-      autoPlay 
       interval={5000} 
       infiniteLoop 
       thumbWidth={80} 

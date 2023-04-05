@@ -22,8 +22,9 @@ import GSB from "./pages/GSB";
 
 import MDL from "./pages/MDL";
 
-import NotFound from "./pages/NotFound";
+import Nolark from "./pages/Nolark";
 
+import NotFound from "./pages/NotFound";
 
 
 
@@ -56,6 +57,8 @@ const App = () => {
         <Route path="/Gsb" element={<GSB />}></Route>
 
         <Route path="/Mdl" element={<MDL />}></Route>
+
+        <Route path="/Nolark" element={<Nolark />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
 

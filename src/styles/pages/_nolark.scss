@@ -1,0 +1,34 @@
+
+.nolark{
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    text-align: center;
+    font-family: $font-1;
+    background-color: white;
+    border: solid 2px;
+    border-radius: 75px;
+    font-weight: 600;
+
+}
+
+.titre_nolark{
+    text-decoration: none;
+    font-size: 4.4em;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .nolark{
+        border-radius: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titre_nolark{
+        font-size: 2em;
+    }
+
+    .paragrapheNolark{
+        font-size: 12px;
+    }
+}
