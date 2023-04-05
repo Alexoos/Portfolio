@@ -16,7 +16,7 @@ const Nolark = () => {
                     PHP/HTML/CSS
                     </div>
                     <p className='paragrapheNolark'>
-                       Nolark.
+                       Nolark est un site vitrine d'un magasin de vente de casque de moto.
                     </p>
                 </div>
             </div>

@@ -16,7 +16,7 @@ const MDL = () => {
                     Symphony/Twig/SCSS
                     </div>
                     <p className='paragrapheMDL'>
-                       MDL
+                       MDL (Maison des Ligues) est une application web de gestion d'inscriptions aux congrés d'escrime. 
                     </p>
                 </div>
             </div>

@@ -16,7 +16,7 @@ const SDC = () => {
                     PHP/Bootstrap
                     </div>
                     <p className='paragrapheSDC'>
-                        SDC.
+                        SDC (Suivi de chantier) mobile est une application web de suivi de chantier accessible depuis n'importe où.
                     </p>
                 </div>
             </div>

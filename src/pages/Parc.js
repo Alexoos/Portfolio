@@ -16,7 +16,7 @@ const Parc = () => {
                     PHP/Bootstrap
                     </div>
                     <p className='paragrapheParc'>
-                       Refonte du parc informatique.
+                       Refonte du parc informatique pour pouvoir être accessible de partout (responsive).
                     </p>
                 </div>
             </div>

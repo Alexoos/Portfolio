@@ -16,7 +16,7 @@ const AggloMistral = () => {
                     Java/JavaUX
                     </div>
                     <p className='paragrapheAggloMistral'>
-                       AggloMistral.
+                       AggloMistral est une application de suivi et de gestion d'un réseau de transport en commun.
                     </p>
                 </div>
             </div>

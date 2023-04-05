@@ -16,7 +16,7 @@ const GSB = () => {
                     PHP/Bootstrap
                     </div>
                     <p className='paragrapheGSB'>
-                        GSB.
+                        GSB (Galaxy Swiss Bourdin) est une application web de suivi et de gestion de remboursement de frais de visiteur médicaux.
                     </p>
                 </div>
             </div>

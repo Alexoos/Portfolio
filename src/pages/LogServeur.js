@@ -16,7 +16,7 @@ const LogServeur = () => {
                     Powershell/Windev
                     </div>
                     <p className='paragrapheLogServeur'>
-                       LogServeur.
+                       LogServeur est un service qui permet d'enregistrer les connexions RDS, et évenements d'un serveur Windows (En cours de développement).
                     </p>
                 </div>
             </div>

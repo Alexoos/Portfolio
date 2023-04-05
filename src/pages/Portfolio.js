@@ -15,7 +15,7 @@ const Portfolio = () => {
                     ReactJS/SCSS
                     </div>
                     <p className='paragraphePortfolio'>
-                        Portfolio.
+                        Portfolio d'Alexis Bertin.
                     </p>
                 </div>
             </div>
