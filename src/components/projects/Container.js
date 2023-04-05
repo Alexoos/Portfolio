@@ -15,6 +15,7 @@ const Container = () => {
     const GSB = () =>navigate('/Gsb');
     const MDL = () =>navigate('/Mdl');  
     const Nolark = () =>navigate('/Nolark');
+    const LogServeur = () =>navigate('/LogServeur');
     
     return (
         <div className="realisation">
@@ -69,7 +70,7 @@ const Container = () => {
                         MDL
                     </div> 
                 </div>
-                <div className="container_img" >
+                <div className="container_img" onClick={LogServeur}>
                     <a>
                         <img className="image_realisation" src={logoWindev} alt="Logo de Parc"></img>
                     </a>

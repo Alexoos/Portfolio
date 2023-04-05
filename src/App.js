@@ -24,6 +24,8 @@ import MDL from "./pages/MDL";
 
 import Nolark from "./pages/Nolark";
 
+import LogServeur from "./pages/LogServeur";
+
 import NotFound from "./pages/NotFound";
 
 
@@ -59,6 +61,8 @@ const App = () => {
         <Route path="/Mdl" element={<MDL />}></Route>
 
         <Route path="/Nolark" element={<Nolark />}></Route>
+
+        <Route path="/LogServeur" element={<LogServeur />}></Route>
 
         <Route path="*" element={<NotFound />}></Route>
 

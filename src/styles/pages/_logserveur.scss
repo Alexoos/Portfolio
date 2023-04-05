@@ -1,0 +1,33 @@
+.logserveur{
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    text-align: center;
+    font-family: $font-1;
+    background-color: white;
+    border: solid 2px;
+    border-radius: 75px;
+    font-weight: 600;
+}
+
+.titre_logserveur{
+    text-decoration: none;
+    font-size: 4.4em;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .logserveur{
+        border-radius: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .titre_logserveur{
+        font-size: 2em;
+    }
+
+    .paragrapheLogServeur{
+        font-size: 15px;
+        margin: 0 10% 1%;
+    }
+}
